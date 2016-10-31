@@ -1,0 +1,6 @@
+Maggie,,Noodles::Water::Taste-maker::,,Put all together and boil.::
+Tea,,Sugar::Milk::Tea Leaves::Water::,,Boil and serve.::
+Pasta,,Pasta::Spices::,,Boil::
+Momos,,Flour::Vegetables::Sauce::,,Don't know::
+Samosa,,Flour::Potato::Pees::Onions::Spices::Ground Oil::,,Fry::
+Aloo Pakoda,,Potato::Flour::Oil::Salt::,,Don't know::

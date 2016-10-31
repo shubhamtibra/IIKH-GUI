@@ -7,7 +7,7 @@ package iikh;
 
 /**
  *
- * @author ankush
+ * @author SHUBHAM
  */
 public class Greeter extends javax.swing.JFrame {
 
@@ -45,18 +45,18 @@ public class Greeter extends javax.swing.JFrame {
         welcome.setForeground(new java.awt.Color(51, 0, 153));
         welcome.setText("Welcome to I.I.K.H.");
         getContentPane().add(welcome);
-        welcome.setBounds(130, 20, 320, 60);
+        welcome.setBounds(110, 20, 320, 60);
 
         ManageRecipe.setBackground(new java.awt.Color(255, 255, 255));
         ManageRecipe.setForeground(new java.awt.Color(17, 9, 9));
-        ManageRecipe.setText("Browse, Add or Edit Recipes");
+        ManageRecipe.setText("Recipe Manager");
         ManageRecipe.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 ManageRecipeActionPerformed(evt);
             }
         });
         getContentPane().add(ManageRecipe);
-        ManageRecipe.setBounds(110, 100, 367, 41);
+        ManageRecipe.setBounds(110, 100, 310, 40);
 
         exit.setBackground(new java.awt.Color(255, 255, 255));
         exit.setText("Exit");
@@ -66,27 +66,27 @@ public class Greeter extends javax.swing.JFrame {
             }
         });
         getContentPane().add(exit);
-        exit.setBounds(270, 280, 47, 28);
+        exit.setBounds(240, 270, 60, 28);
 
         jButton1.setBackground(new java.awt.Color(255, 255, 255));
-        jButton1.setText("Meals");
+        jButton1.setText("Meal Manager");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton1ActionPerformed(evt);
             }
         });
         getContentPane().add(jButton1);
-        jButton1.setBounds(110, 160, 367, 40);
+        jButton1.setBounds(110, 160, 310, 40);
 
         jButton2.setBackground(new java.awt.Color(255, 255, 255));
-        jButton2.setText("Weekly Plans");
+        jButton2.setText("Weekly Plans Manager");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton2ActionPerformed(evt);
             }
         });
         getContentPane().add(jButton2);
-        jButton2.setBounds(110, 210, 367, 41);
+        jButton2.setBounds(110, 210, 310, 40);
 
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/iikh/kitchen1.jpg"))); // NOI18N
         jLabel1.setText("jLabel1");

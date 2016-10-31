@@ -1,0 +1,2 @@
+Light food,,Tea::Maggie::Pasta::Momos::
+Spicey,,Samosa::Maggie::Tea::Pasta::
