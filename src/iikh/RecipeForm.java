@@ -67,19 +67,19 @@ public class RecipeForm extends javax.swing.JFrame {
         jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setText("Recipe Manager");
         getContentPane().add(jLabel1);
-        jLabel1.setBounds(250, 0, 210, 32);
+        jLabel1.setBounds(250, 0, 210, 29);
 
         jLabel2.setText("Name:");
         getContentPane().add(jLabel2);
-        jLabel2.setBounds(30, 30, 37, 16);
+        jLabel2.setBounds(30, 30, 90, 17);
 
         jLabel3.setText("Ingredients:");
         getContentPane().add(jLabel3);
-        jLabel3.setBounds(29, 97, 100, 16);
+        jLabel3.setBounds(29, 97, 100, 17);
 
         jLabel4.setText("How to Prepare:");
         getContentPane().add(jLabel4);
-        jLabel4.setBounds(29, 247, 120, 16);
+        jLabel4.setBounds(29, 247, 120, 17);
 
         back.setBackground(new java.awt.Color(255, 255, 255));
         back.setText("Go Back");
@@ -89,7 +89,7 @@ public class RecipeForm extends javax.swing.JFrame {
             }
         });
         getContentPane().add(back);
-        back.setBounds(460, 290, 141, 30);
+        back.setBounds(431, 290, 170, 30);
 
         ListRecipe.setBackground(new java.awt.Color(255, 255, 255));
         ListRecipe.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
@@ -99,7 +99,7 @@ public class RecipeForm extends javax.swing.JFrame {
             }
         });
         getContentPane().add(ListRecipe);
-        ListRecipe.setBounds(433, 45, 100, 26);
+        ListRecipe.setBounds(433, 45, 100, 27);
 
         AddRecipe.setBackground(new java.awt.Color(255, 255, 255));
         AddRecipe.setText("Add this Recipe");
@@ -109,7 +109,7 @@ public class RecipeForm extends javax.swing.JFrame {
             }
         });
         getContentPane().add(AddRecipe);
-        AddRecipe.setBounds(460, 130, 140, 28);
+        AddRecipe.setBounds(430, 130, 170, 29);
 
         DelRecipe.setBackground(new java.awt.Color(255, 255, 255));
         DelRecipe.setText("Delete this Recipe");
@@ -119,7 +119,7 @@ public class RecipeForm extends javax.swing.JFrame {
             }
         });
         getContentPane().add(DelRecipe);
-        DelRecipe.setBounds(460, 210, 140, 28);
+        DelRecipe.setBounds(430, 210, 170, 29);
 
         ViewRecipe.setBackground(new java.awt.Color(255, 255, 255));
         ViewRecipe.setText("Browse");
@@ -165,7 +165,7 @@ public class RecipeForm extends javax.swing.JFrame {
             }
         });
         getContentPane().add(EditRecipe);
-        EditRecipe.setBounds(460, 170, 140, 28);
+        EditRecipe.setBounds(430, 170, 170, 29);
 
         clear.setBackground(new java.awt.Color(255, 255, 255));
         clear.setText("Clear text");
@@ -175,7 +175,7 @@ public class RecipeForm extends javax.swing.JFrame {
             }
         });
         getContentPane().add(clear);
-        clear.setBounds(460, 250, 140, 30);
+        clear.setBounds(430, 250, 170, 30);
 
         jLabel5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/iikh/recipes.jpg"))); // NOI18N
         jLabel5.setText("jLabel5");

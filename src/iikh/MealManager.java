@@ -249,11 +249,11 @@ public class MealManager extends javax.swing.JFrame {
 
         jLabel9.setText("Wednesday");
         getContentPane().add(jLabel9);
-        jLabel9.setBounds(6, 260, 80, 16);
+        jLabel9.setBounds(6, 260, 80, 17);
 
         jLabel10.setText("Thursday");
         getContentPane().add(jLabel10);
-        jLabel10.setBounds(6, 304, 80, 16);
+        jLabel10.setBounds(6, 304, 80, 17);
 
         EditPlan.setBackground(new java.awt.Color(255, 255, 255));
         EditPlan.setText("Save the edits");
@@ -263,19 +263,19 @@ public class MealManager extends javax.swing.JFrame {
             }
         });
         getContentPane().add(EditPlan);
-        EditPlan.setBounds(250, 480, 130, 28);
+        EditPlan.setBounds(230, 480, 150, 29);
 
         jLabel11.setText("Monday");
         getContentPane().add(jLabel11);
-        jLabel11.setBounds(6, 175, 70, 16);
+        jLabel11.setBounds(6, 175, 70, 17);
 
         jLabel3.setText("Plan Name:");
         getContentPane().add(jLabel3);
-        jLabel3.setBounds(100, 60, 90, 16);
+        jLabel3.setBounds(100, 60, 90, 17);
 
         jLabel12.setText("Tuesday");
         getContentPane().add(jLabel12);
-        jLabel12.setBounds(6, 221, 80, 16);
+        jLabel12.setBounds(6, 221, 80, 17);
 
         ListRecipe1.setBackground(new java.awt.Color(255, 255, 255));
         ListRecipe1.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
@@ -285,7 +285,7 @@ public class MealManager extends javax.swing.JFrame {
             }
         });
         getContentPane().add(ListRecipe1);
-        ListRecipe1.setBounds(502, 64, 160, 26);
+        ListRecipe1.setBounds(502, 64, 160, 27);
 
         back.setBackground(new java.awt.Color(255, 255, 255));
         back.setText("Go Back");
@@ -295,12 +295,12 @@ public class MealManager extends javax.swing.JFrame {
             }
         });
         getContentPane().add(back);
-        back.setBounds(490, 480, 100, 28);
+        back.setBounds(490, 480, 100, 29);
 
         l4.setBackground(new java.awt.Color(255, 255, 255));
         l4.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
         getContentPane().add(l4);
-        l4.setBounds(321, 299, 140, 26);
+        l4.setBounds(321, 299, 140, 27);
 
         DelPlan.setBackground(new java.awt.Color(255, 255, 255));
         DelPlan.setText("Delete");
@@ -310,22 +310,22 @@ public class MealManager extends javax.swing.JFrame {
             }
         });
         getContentPane().add(DelPlan);
-        DelPlan.setBounds(390, 480, 90, 28);
+        DelPlan.setBounds(390, 480, 90, 29);
 
         l1.setBackground(new java.awt.Color(255, 255, 255));
         l1.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
         getContentPane().add(l1);
-        l1.setBounds(321, 170, 140, 26);
+        l1.setBounds(321, 170, 140, 27);
 
         l2.setBackground(new java.awt.Color(255, 255, 255));
         l2.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
         getContentPane().add(l2);
-        l2.setBounds(321, 208, 140, 26);
+        l2.setBounds(321, 208, 140, 27);
 
         l3.setBackground(new java.awt.Color(255, 255, 255));
         l3.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
         getContentPane().add(l3);
-        l3.setBounds(321, 255, 140, 26);
+        l3.setBounds(321, 255, 140, 27);
 
         name1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -333,7 +333,7 @@ public class MealManager extends javax.swing.JFrame {
             }
         });
         getContentPane().add(name1);
-        name1.setBounds(100, 90, 262, 28);
+        name1.setBounds(100, 90, 262, 27);
 
         CreatePlan.setBackground(new java.awt.Color(255, 255, 255));
         CreatePlan.setText("Add this Plan");
@@ -343,7 +343,7 @@ public class MealManager extends javax.swing.JFrame {
             }
         });
         getContentPane().add(CreatePlan);
-        CreatePlan.setBounds(70, 480, 170, 28);
+        CreatePlan.setBounds(50, 480, 170, 29);
 
         ViewPlan.setBackground(new java.awt.Color(255, 255, 255));
         ViewPlan.setText("Browse");
@@ -353,121 +353,121 @@ public class MealManager extends javax.swing.JFrame {
             }
         });
         getContentPane().add(ViewPlan);
-        ViewPlan.setBounds(668, 63, 100, 28);
+        ViewPlan.setBounds(668, 63, 100, 29);
 
         b2.setBackground(new java.awt.Color(255, 255, 255));
         b2.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
         getContentPane().add(b2);
-        b2.setBounds(95, 208, 150, 26);
+        b2.setBounds(95, 208, 150, 27);
 
         b1.setBackground(new java.awt.Color(255, 255, 255));
         b1.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
         getContentPane().add(b1);
-        b1.setBounds(95, 170, 150, 26);
+        b1.setBounds(95, 170, 150, 27);
 
         b3.setBackground(new java.awt.Color(255, 255, 255));
         b3.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
         getContentPane().add(b3);
-        b3.setBounds(95, 257, 150, 26);
+        b3.setBounds(95, 257, 150, 27);
 
         b4.setBackground(new java.awt.Color(255, 255, 255));
         b4.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
         getContentPane().add(b4);
-        b4.setBounds(95, 301, 150, 26);
+        b4.setBounds(95, 301, 150, 27);
 
         d2.setBackground(new java.awt.Color(255, 255, 255));
         d2.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
         getContentPane().add(d2);
-        d2.setBounds(553, 208, 220, 26);
+        d2.setBounds(553, 208, 220, 27);
 
         d1.setBackground(new java.awt.Color(255, 255, 255));
         d1.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
         getContentPane().add(d1);
-        d1.setBounds(553, 170, 220, 26);
+        d1.setBounds(553, 170, 220, 27);
 
         d3.setBackground(new java.awt.Color(255, 255, 255));
         d3.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
         getContentPane().add(d3);
-        d3.setBounds(553, 257, 220, 26);
+        d3.setBounds(553, 257, 220, 27);
 
         d4.setBackground(new java.awt.Color(255, 255, 255));
         d4.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
         getContentPane().add(d4);
-        d4.setBounds(553, 301, 220, 26);
+        d4.setBounds(553, 301, 220, 27);
 
         jLabel13.setText("Saturday");
         getContentPane().add(jLabel13);
-        jLabel13.setBounds(6, 393, 80, 16);
+        jLabel13.setBounds(6, 393, 80, 17);
 
         b7.setBackground(new java.awt.Color(255, 255, 255));
         b7.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
         getContentPane().add(b7);
-        b7.setBounds(95, 432, 150, 26);
+        b7.setBounds(95, 432, 150, 27);
 
         jLabel14.setText("Sunday");
         getContentPane().add(jLabel14);
-        jLabel14.setBounds(6, 437, 90, 16);
+        jLabel14.setBounds(6, 437, 90, 17);
 
         b6.setBackground(new java.awt.Color(255, 255, 255));
         b6.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
         getContentPane().add(b6);
-        b6.setBounds(95, 388, 150, 26);
+        b6.setBounds(95, 388, 150, 27);
 
         b5.setBackground(new java.awt.Color(255, 255, 255));
         b5.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
         getContentPane().add(b5);
-        b5.setBounds(95, 339, 150, 26);
+        b5.setBounds(95, 339, 150, 27);
 
         jLabel15.setText("Friday");
         getContentPane().add(jLabel15);
-        jLabel15.setBounds(6, 344, 90, 16);
+        jLabel15.setBounds(6, 344, 90, 17);
 
         d5.setBackground(new java.awt.Color(255, 255, 255));
         d5.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
         getContentPane().add(d5);
-        d5.setBounds(553, 339, 220, 26);
+        d5.setBounds(553, 339, 220, 27);
 
         d6.setBackground(new java.awt.Color(255, 255, 255));
         d6.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
         getContentPane().add(d6);
-        d6.setBounds(553, 388, 220, 26);
+        d6.setBounds(553, 388, 220, 27);
 
         d7.setBackground(new java.awt.Color(255, 255, 255));
         d7.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
         getContentPane().add(d7);
-        d7.setBounds(553, 432, 220, 26);
+        d7.setBounds(553, 432, 220, 27);
 
         l5.setBackground(new java.awt.Color(255, 255, 255));
         l5.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
         getContentPane().add(l5);
-        l5.setBounds(321, 339, 140, 26);
+        l5.setBounds(321, 339, 140, 27);
 
         l6.setBackground(new java.awt.Color(255, 255, 255));
         l6.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
         getContentPane().add(l6);
-        l6.setBounds(321, 388, 140, 26);
+        l6.setBounds(321, 388, 140, 27);
 
         l7.setBackground(new java.awt.Color(255, 255, 255));
         l7.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
         getContentPane().add(l7);
-        l7.setBounds(321, 432, 140, 26);
+        l7.setBounds(321, 432, 140, 27);
 
         jLabel4.setText("Dinner");
         getContentPane().add(jLabel4);
-        jLabel4.setBounds(553, 148, 80, 16);
+        jLabel4.setBounds(553, 148, 80, 17);
 
         jLabel16.setText("Lunch");
         getContentPane().add(jLabel16);
-        jLabel16.setBounds(321, 148, 90, 16);
+        jLabel16.setBounds(321, 148, 90, 17);
 
         jLabel17.setText("Breakfast");
         getContentPane().add(jLabel17);
-        jLabel17.setBounds(100, 150, 100, 16);
+        jLabel17.setBounds(100, 150, 100, 17);
 
         jLabel19.setIcon(new javax.swing.ImageIcon(getClass().getResource("/iikh/week.jpg"))); // NOI18N
         jLabel19.setText("jLabel19");
         getContentPane().add(jLabel19);
-        jLabel19.setBounds(0, -10, 800, 530);
+        jLabel19.setBounds(0, -10, 830, 550);
 
         pack();
     }// </editor-fold>//GEN-END:initComponents

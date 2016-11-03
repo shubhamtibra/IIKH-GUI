@@ -45,7 +45,7 @@ public class Greeter extends javax.swing.JFrame {
         welcome.setForeground(new java.awt.Color(51, 0, 153));
         welcome.setText("Welcome to I.I.K.H.");
         getContentPane().add(welcome);
-        welcome.setBounds(110, 20, 320, 60);
+        welcome.setBounds(110, 20, 340, 60);
 
         ManageRecipe.setBackground(new java.awt.Color(255, 255, 255));
         ManageRecipe.setForeground(new java.awt.Color(17, 9, 9));
@@ -66,7 +66,7 @@ public class Greeter extends javax.swing.JFrame {
             }
         });
         getContentPane().add(exit);
-        exit.setBounds(240, 270, 60, 28);
+        exit.setBounds(240, 270, 60, 29);
 
         jButton1.setBackground(new java.awt.Color(255, 255, 255));
         jButton1.setText("Meal Manager");

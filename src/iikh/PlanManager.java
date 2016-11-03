@@ -100,7 +100,7 @@ public class PlanManager extends javax.swing.JFrame {
             }
         });
         getContentPane().add(ListRecipe);
-        ListRecipe.setBounds(490, 40, 110, 26);
+        ListRecipe.setBounds(490, 40, 110, 27);
 
         back.setBackground(new java.awt.Color(255, 255, 255));
         back.setText("Go Back");
@@ -114,14 +114,14 @@ public class PlanManager extends javax.swing.JFrame {
 
         jLabel2.setText("Meal Name:");
         getContentPane().add(jLabel2);
-        jLabel2.setBounds(40, 40, 80, 16);
+        jLabel2.setBounds(40, 40, 130, 17);
 
         jLabel1.setBackground(new java.awt.Color(255, 255, 255));
         jLabel1.setFont(new java.awt.Font("sansserif", 1, 24)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setText("Meals Manager");
         getContentPane().add(jLabel1);
-        jLabel1.setBounds(313, 0, 190, 32);
+        jLabel1.setBounds(313, 0, 190, 29);
 
         clear.setBackground(new java.awt.Color(255, 255, 255));
         clear.setText("Clear");
@@ -131,7 +131,7 @@ public class PlanManager extends javax.swing.JFrame {
             }
         });
         getContentPane().add(clear);
-        clear.setBounds(440, 370, 80, 28);
+        clear.setBounds(440, 370, 80, 29);
 
         EditMeal.setBackground(new java.awt.Color(255, 255, 255));
         EditMeal.setText("Save edits");
@@ -141,9 +141,9 @@ public class PlanManager extends javax.swing.JFrame {
             }
         });
         getContentPane().add(EditMeal);
-        EditMeal.setBounds(200, 370, 100, 28);
+        EditMeal.setBounds(200, 370, 100, 29);
         getContentPane().add(name);
-        name.setBounds(40, 60, 262, 28);
+        name.setBounds(40, 60, 262, 27);
 
         AddMeal.setBackground(new java.awt.Color(255, 255, 255));
         AddMeal.setText("Add this Meal");
@@ -153,7 +153,7 @@ public class PlanManager extends javax.swing.JFrame {
             }
         });
         getContentPane().add(AddMeal);
-        AddMeal.setBounds(60, 370, 130, 28);
+        AddMeal.setBounds(60, 370, 130, 29);
 
         ViewRecipe.setBackground(new java.awt.Color(255, 255, 255));
         ViewRecipe.setText("Browse");
@@ -163,7 +163,7 @@ public class PlanManager extends javax.swing.JFrame {
             }
         });
         getContentPane().add(ViewRecipe);
-        ViewRecipe.setBounds(630, 40, 110, 28);
+        ViewRecipe.setBounds(630, 40, 110, 29);
 
         DelMeal.setBackground(new java.awt.Color(255, 255, 255));
         DelMeal.setText("Delete");
@@ -173,12 +173,12 @@ public class PlanManager extends javax.swing.JFrame {
             }
         });
         getContentPane().add(DelMeal);
-        DelMeal.setBounds(310, 370, 120, 28);
+        DelMeal.setBounds(310, 370, 120, 29);
 
         jComboBox1.setBackground(new java.awt.Color(255, 255, 255));
         jComboBox1.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
         getContentPane().add(jComboBox1);
-        jComboBox1.setBounds(40, 100, 230, 26);
+        jComboBox1.setBounds(40, 100, 230, 27);
 
         jComboBox2.setBackground(new java.awt.Color(255, 255, 255));
         jComboBox2.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
@@ -188,7 +188,7 @@ public class PlanManager extends javax.swing.JFrame {
             }
         });
         getContentPane().add(jComboBox2);
-        jComboBox2.setBounds(40, 150, 230, 26);
+        jComboBox2.setBounds(40, 150, 230, 27);
 
         jComboBox3.setBackground(new java.awt.Color(255, 255, 255));
         jComboBox3.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
@@ -198,16 +198,16 @@ public class PlanManager extends javax.swing.JFrame {
             }
         });
         getContentPane().add(jComboBox3);
-        jComboBox3.setBounds(40, 190, 230, 26);
+        jComboBox3.setBounds(40, 190, 230, 27);
 
         jComboBox4.setBackground(new java.awt.Color(255, 255, 255));
         jComboBox4.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
         getContentPane().add(jComboBox4);
-        jComboBox4.setBounds(40, 230, 229, 26);
+        jComboBox4.setBounds(40, 230, 229, 27);
 
         jTextField1.setText("jTextField1");
         getContentPane().add(jTextField1);
-        jTextField1.setBounds(310, 100, 210, 28);
+        jTextField1.setBounds(310, 100, 210, 27);
 
         jTextField2.setText("jTextField2");
         jTextField2.addActionListener(new java.awt.event.ActionListener() {
@@ -216,11 +216,11 @@ public class PlanManager extends javax.swing.JFrame {
             }
         });
         getContentPane().add(jTextField2);
-        jTextField2.setBounds(310, 140, 210, 28);
+        jTextField2.setBounds(310, 140, 210, 27);
 
         jTextField3.setText("jTextField3");
         getContentPane().add(jTextField3);
-        jTextField3.setBounds(310, 180, 210, 28);
+        jTextField3.setBounds(310, 180, 210, 27);
 
         jTextField4.setText("jTextField4");
         jTextField4.addActionListener(new java.awt.event.ActionListener() {
@@ -229,7 +229,7 @@ public class PlanManager extends javax.swing.JFrame {
             }
         });
         getContentPane().add(jTextField4);
-        jTextField4.setBounds(310, 230, 210, 28);
+        jTextField4.setBounds(310, 230, 210, 27);
 
         jButton1.setBackground(new java.awt.Color(255, 255, 255));
         jButton1.setText("Add this recipe to meal");
@@ -239,7 +239,7 @@ public class PlanManager extends javax.swing.JFrame {
             }
         });
         getContentPane().add(jButton1);
-        jButton1.setBounds(560, 100, 180, 28);
+        jButton1.setBounds(560, 100, 200, 29);
 
         jButton2.setBackground(new java.awt.Color(255, 255, 255));
         jButton2.setText("Add this recipe to meal");
@@ -249,7 +249,7 @@ public class PlanManager extends javax.swing.JFrame {
             }
         });
         getContentPane().add(jButton2);
-        jButton2.setBounds(560, 140, 180, 28);
+        jButton2.setBounds(560, 140, 200, 29);
 
         jButton3.setBackground(new java.awt.Color(255, 255, 255));
         jButton3.setText("Add this recipe to meal");
@@ -259,7 +259,7 @@ public class PlanManager extends javax.swing.JFrame {
             }
         });
         getContentPane().add(jButton3);
-        jButton3.setBounds(560, 180, 180, 28);
+        jButton3.setBounds(560, 180, 200, 29);
 
         jButton4.setBackground(new java.awt.Color(255, 255, 255));
         jButton4.setText("Add this recipe to meal");
@@ -269,7 +269,7 @@ public class PlanManager extends javax.swing.JFrame {
             }
         });
         getContentPane().add(jButton4);
-        jButton4.setBounds(560, 230, 180, 28);
+        jButton4.setBounds(560, 230, 200, 29);
 
         jLabel3.setBackground(new java.awt.Color(255, 255, 255));
         jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/iikh/meal.jpg"))); // NOI18N
